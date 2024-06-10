@@ -1,0 +1,11 @@
+.contents{
+    height: 100vh;
+    width: fit-content;
+    padding: 1rem;
+    background-color: #020707ce;
+    display: inline-block;
+    color: aliceblue;
+  }
+  .contents button{
+    display: block;
+  }

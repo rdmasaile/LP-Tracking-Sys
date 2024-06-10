@@ -1,0 +1,24 @@
+// From Lecturer panel
+
+<div className="col-2 p-2 bg-dark">
+                        <div>
+                            <h1>Chats</h1>
+                        </div>
+                        <div className="input-group bg-success">
+                            <input type="search" className="form-control col-12" name="search" id="search" />
+                            <div className="input-group-btn">
+                                <button className="btn btn-default" type="submit">
+                                    <img src={search} width={'25px'} height='25px' role='button'/>
+                                </button>
+                            </div>                            
+                        </div>
+                        <div className="row justify-content-center">
+                            {
+                                buttons.map((btn)=>{return (<button key={btn} onClick={(e)=>onClick(e.target.name)} 
+                                    name={btn}
+                                    className="nav-link col-10 mb-2"
+                                    role="button br-1">{btn}</button>
+                                )})
+                            }   
+                        </div> 
+                    </div> 

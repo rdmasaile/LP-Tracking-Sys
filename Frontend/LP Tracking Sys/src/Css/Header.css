@@ -1,0 +1,39 @@
+/*.header{
+    background-color: #f82727be;
+    height: 10vh;
+    position: relative;
+}
+nav{
+    position: relative;
+}
+
+#heading{
+    display: inline;
+    padding: 2px;
+}
+nav ul{  
+    display: -webkit-inline-flex; 
+    flex-direction: row;
+    float: right;
+    margin-top: 1em;  
+}
+nav ul li{
+    list-style: none; 
+    z-index: 5;
+}
+nav ul li ul{
+    margin-top: 2.6rem;
+    display: none;
+    margin-left: -6rem;
+    background-color:#f82727be;
+}*/
+
+nav ul li:hover ul{
+    background-color: white;
+    display: block;
+    height: fit-content;
+}
+  
+li:hover{
+    background-color: aqua;
+}
